@@ -64,9 +64,9 @@ except ImportError:
         raise ImportError('cs1graphics requires that Tkinter be installed')
 
 try:
-    import Image as _Image
-    import ImageDraw as _ImageDraw
-    import ImageTk as _ImageTk
+    from PIL import Image as _Image
+    from PIL import ImageDraw as _ImageDraw
+    from PIL import ImageTk as _ImageTk
 except ImportError:
     raise ImportError('cs1graphics requires that PIL be installed')
 _pilAvailable = True

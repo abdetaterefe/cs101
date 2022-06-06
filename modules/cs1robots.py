@@ -25,9 +25,9 @@ from cs1robots_images import _robot_images
 # PIL isn't actually used in cs1robots, but is needed to use
 # cs1graphics properly.  So we make sure it is there, as otherwise
 # users get a confusing error message.
-import Image as _Image
-import ImageDraw as _ImageDraw
-import ImageTk as _ImageTk
+from PIL import Image as _Image
+from PIL import ImageDraw as _ImageDraw
+from PIL import ImageTk as _ImageTk
 
 #_g._debug = 2
 
