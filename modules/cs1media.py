@@ -12,8 +12,8 @@
 #
 
 import sys as _sys
-import Image as _Image
-import ImageTk as _ImageTk
+from PIL import Image as _Image
+from PIL import ImageTk as _ImageTk
 import easygui as _easygui
 import tkColorChooser as _tkColorChooser
 import tkFont as _tkFont
